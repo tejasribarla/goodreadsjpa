@@ -1,4 +1,4 @@
-package com.example.goodreads.service;
+/*package com.example.goodreads.service;
 import com.example.goodreads.model.Book;
 
 import java.util.*;
@@ -7,7 +7,6 @@ import com.example.goodreads.repository.BookRepository;
 import org.springframework.stereotype.Service;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.jdbc.core.JdbcTemplate;
-import com.example.goodreads.model.BookRowMapper;
 import org.springframework.web.server.ResponseStatusException;
 import org.springframework.http.HttpStatus;
 
@@ -52,4 +51,4 @@ public class BookH2Service implements BookRepository {
     public void deleteBook(int bookId) {
         db.update("delete from book where id=?",bookId);
     }
-}
+}*/

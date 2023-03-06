@@ -1,4 +1,4 @@
-package com.example.goodreads.model;
+/*package com.example.goodreads.model;
 
 import org.springframework.jdbc.core.RowMapper;
 import java.sql.ResultSet;
@@ -11,4 +11,4 @@ public class BookRowMapper implements RowMapper<Book> {
             rs.getString("name"),
             rs.getString("imageUrl"));
     } 
-}
+}*/

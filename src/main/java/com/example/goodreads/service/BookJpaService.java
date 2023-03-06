@@ -1,13 +1,15 @@
 package com.example.goodreads.service;
 
 import org.springframework.stereotype.Service;
+
 import org.springframework.beans.factory.annotation.Autowired;
+
+import com.example.goodreads.repository.BookJpaRepository;
 import java.util.*;
 import org.springframework.web.server.ResponseStatusException;
 import org.springframework.http.HttpStatus;
+import com.example.goodreads.repository.BookRepository; 
 
-import com.example.goodreads.repository.BookRepository;
-import com.example.goodreads.repository.BookJpaRepository;
 import com.example.goodreads.model.Book;
 
 @Service
